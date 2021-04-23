@@ -1,0 +1,87 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.header {
+	height:60px;
+	background-color:#34b7eb;
+	cursor:pointer;
+}
+
+.LogoContainer{
+	height:100%;
+	width:40%;
+    text-align:center;
+    float:left;
+}
+.LogoContainer h2{
+	text-align:center;
+	padding:15px;
+	font-family:cursive;
+	font-size:20px;
+}
+.LogoContainer h2:hover{
+	color:white;
+}
+.MenuContainer{
+	float:right;
+	width:57%;
+}
+.MenuContainer ul{
+float:left;
+list-style:none;
+}
+.MenuContainer ul li {
+	padding:21px;
+	float:left;
+	color:white;
+	font-family:verdana,sans-serif;
+	font-size:15px;
+}
+.MenuContainer ul li:hover{
+	background-color:#0892c9;
+}
+.Test{
+	display:none;
+}
+
+
+@media screen and (max-width:600px){
+	.MenuContainer{
+background-color:#34b7eb;
+width:100%;
+}
+.MenuContainer ul {
+	width:100%;
+}
+.MenuContainer ul li {
+	width:100%;
+	text-align:center;
+}
+.LogoContainer{
+	width:100%;
+	position:relative;
+}
+.LogoContainer h2{
+	left:20%;
+	top:30%;
+	font-size:25px;
+}
+.Test{
+	display:block;
+	position:absolute;
+	top:10px;
+	right:10px;
+	height:40px;
+	width:60px;
+}
+.List1{
+	display:none;
+}
+.List2{
+	display:block;
+
+	
+}
+
+}
